@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Infrastructure Engineer | Portfolio</title>
+    <meta name="description" content="Portfolio of a Senior Infrastructure Engineer specializing in Kubernetes, Cloud Native architecture, and scalable CI/CD pipelines.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-grid"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    
+    <nav class="navbar glass">
+        <div class="logo">~/$ <span>infra</span></div>
+        <ul class="nav-links">
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content fade-in">
+                <p class="mono-subtitle">print("Hello, World!")</p>
+                <h1 class="hero-title">Architecting <span class="gradient-text">Resilient</span> Systems.</h1>
+                <p class="hero-desc">Senior Infrastructure Engineer specializing in Kubernetes, Cloud Native architecture, and highly scalable CI/CD pipelines.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#expertise" class="btn btn-secondary">My Tech Stack</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in scroll-delay-1">
+                <div class="terminal-window glass">
+                    <div class="terminal-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <div class="terminal-body mono-text">
+                        <p>> kubectl get pods -n production</p>
+                        <p class="success">NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;READY&nbsp;&nbsp;&nbsp;STATUS&nbsp;&nbsp;&nbsp;&nbsp;RESTARTS&nbsp;&nbsp;&nbsp;AGE</p>
+                        <p class="success">api-gateway-7f8b...&nbsp;&nbsp;2/2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Running&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14d</p>
+                        <p class="success">auth-service-5c4d...&nbsp;1/1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Running&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14d</p>
+                        <p class="success">db-cluster-0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1/1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Running&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;42d</p>
+                        <p class="typing-effect">> _</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="expertise" class="expertise pt-section">
+            <h2 class="section-title fade-in">Core <span class="gradient-text">Expertise</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass fade-in scroll-delay-1">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud Native</h3>
+                    <p>AWS, GCP, Azure. Multi-region high availability and fault-tolerant architecture design.</p>
+                </div>
+                <div class="skill-card glass fade-in scroll-delay-2">
+                    <div class="skill-icon">⎈</div>
+                    <h3>Kubernetes</h3>
+                    <p>Cluster provisioning, Helm, Istio service mesh, operators, and GitOps with ArgoCD.</p>
+                </div>
+                <div class="skill-card glass fade-in scroll-delay-3">
+                    <div class="skill-icon">🏗️</div>
+                    <h3>Infrastructure as Code</h3>
+                    <p>Terraform, Pulumi, Ansible. Immutable infrastructure and drift detection.</p>
+                </div>
+                <div class="skill-card glass fade-in scroll-delay-4">
+                    <div class="skill-icon">🚀</div>
+                    <h3>DevSecOps / CI/CD</h3>
+                    <p>GitHub Actions, GitLab CI. Secret management, container scanning, zero-downtime deployments.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="expertise pt-section">
+            <h2 class="section-title fade-in">Featured <span class="gradient-text">Deployments</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass fade-in scroll-delay-1">
+                    <h3>Global Service Mesh</h3>
+                    <p>Designed and deployed an Istio service mesh across 4 AWS regions, securing inter-service communication and achieving 99.99% availability.</p>
+                </div>
+                <div class="skill-card glass fade-in scroll-delay-2">
+                    <h3>Zero-Trust Architecture</h3>
+                    <p>Implemented HashiCorp Vault and dynamic short-lived credentials for database and API access across the entire engineering org.</p>
+                </div>
+                <div class="skill-card glass fade-in scroll-delay-3">
+                    <h3>GitOps CI/CD Overhaul</h3>
+                    <p>Migrated legacy Jenkins pipelines to a modern ArgoCD + GitHub Actions workflow, cutting deployment times by 75%.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="expertise pb-section pt-section">
+            <div class="skill-card glass fade-in center-card">
+                <h2>Ready to scale your infrastructure?</h2>
+                <p>I'm currently exploring new opportunities to build robust and scalable systems.</p>
+                <a href="mailto:hello@example.com" class="btn btn-primary btn-large">Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="mono-text">Designed & Built dynamically</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
